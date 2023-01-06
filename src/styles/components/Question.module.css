@@ -1,0 +1,16 @@
+.question {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.question img {
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+}
+
+.question p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12px;
+}

@@ -1,0 +1,153 @@
+.home {
+  background: #f4f5f4;
+  padding: 40px 5%;
+  display: flex;
+}
+
+/* timeline */
+.timeline {
+  width: 65%;
+  margin: 20px;
+}
+
+.addPost {
+  background: #fdfdfd;
+  padding: 30px;
+  border-radius: 7px;
+  display: flex;
+}
+
+.addPost img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.fields {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.fields input {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+
+.upload {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.upload .inputFile {
+}
+
+.inputFile input {
+  display: none;
+}
+
+.inputFile label {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.upload .buttons {
+  display: flex;
+}
+
+.buttons button {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+  margin-left: 15px;
+  color: #808080;
+  font-size: 13px;
+  font-weight: 500;
+  background: #fdfdfd;
+  cursor: pointer;
+}
+
+.buttons .filled {
+  background: #f05051;
+  color: #fdfdfd;
+  border-color: #f05051;
+}
+
+/* suggestions */
+.suggestions {
+  width: 35%;
+  margin: 20px;
+}
+
+.suggestions .userProfile {
+  background: #fdfdfd;
+  border-radius: 7px;
+}
+
+.userProfile .background {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.userProfile .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.userProfile .user img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.userProfile .userInformation {
+  padding: 0px 20px 20px;
+}
+
+.userInformation h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.userInformation p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.userInformation button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid #f05051;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #f05051;
+  color: #fdfdfd;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.suggestions .questions {
+  background: #fdfdfd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+.questions h2 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
